@@ -1,4 +1,4 @@
-package com.rikkimikki.teledisk.ui.main
+package com.rikkimikki.teledisk.presentation
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -27,6 +27,10 @@ class MainFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         return inflater.inflate(R.layout.fragment_main, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
 
 }

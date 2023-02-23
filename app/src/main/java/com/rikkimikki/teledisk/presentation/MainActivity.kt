@@ -1,8 +1,8 @@
-package com.rikkimikki.teledisk
+package com.rikkimikki.teledisk.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.rikkimikki.teledisk.ui.main.MainFragment
+import com.rikkimikki.teledisk.R
 
 class MainActivity : AppCompatActivity() {
 
